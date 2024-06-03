@@ -1,0 +1,38 @@
+/* Reset CSS */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Estilos para remover decoração de links */
+a {
+    text-decoration: none;
+}
+
+/* Correção de estilos para elementos semânticos */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+}
+
+/* Correção de estilo para elementos de formulário */
+input, button, select, textarea {
+    font-family: inherit;
+}
+
+/* Correção de estilo para elementos HTML5 */
+summary {
+    display: list-item;
+    cursor: pointer;
+}
