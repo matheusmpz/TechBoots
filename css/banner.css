@@ -1,0 +1,50 @@
+.banner {
+    font-family: 'Sora', sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner_text h1 {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.banner_text h1 .color_decoration {
+    color: #3498DB;
+}
+
+.banner_text p {
+    font-size: 24px;
+}
+
+.banner_button {
+    width: 220px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background: #3498DB;
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+
+}
+.banner_button:hover {
+    cursor: pointer;
+    color: #1f1f1f;
+    transform: scale(1.05);
+    transition: color 0.2s ease;
+}
